@@ -1,4 +1,3 @@
-
 angular.module('emailParser', [])
   .config(['$interpolateProvider', function($interpolateProvider) {
     $interpolateProvider.startSymbol('__');
